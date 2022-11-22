@@ -1,8 +1,8 @@
 //
 //  LocationManager.swift
-//  ShareMyLocation
+//  WhereAmI
 //
-//  Created by Sagar Haval on 2022-11-12.
+//  Created by Sagar Haval on 2022-11-13.
 //
 
 import Foundation

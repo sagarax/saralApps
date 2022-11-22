@@ -3,28 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE2912472920CA1D00453C91 /* ShareMyLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2912462920CA1D00453C91 /* ShareMyLocationApp.swift */; };
-		FE2912492920CA1D00453C91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2912482920CA1D00453C91 /* ContentView.swift */; };
-		FE29124B2920CA1E00453C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE29124A2920CA1E00453C91 /* Assets.xcassets */; };
-		FE29124E2920CA1E00453C91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE29124D2920CA1E00453C91 /* Preview Assets.xcassets */; };
-		FE2912552920CD5500453C91 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2912542920CD5500453C91 /* LocationManager.swift */; };
+		FEDD77142929F5CF005F1AD0 /* YYCTrafficApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD77132929F5CF005F1AD0 /* YYCTrafficApp.swift */; };
+		FEDD77162929F5CF005F1AD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD77152929F5CF005F1AD0 /* ContentView.swift */; };
+		FEDD77182929F5D0005F1AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDD77172929F5D0005F1AD0 /* Assets.xcassets */; };
+		FEDD771B2929F5D0005F1AD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDD771A2929F5D0005F1AD0 /* Preview Assets.xcassets */; };
+		FEDD7728292A0519005F1AD0 /* CameraPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD7727292A0519005F1AD0 /* CameraPoints.swift */; };
+		FEDD772B292A0DD7005F1AD0 /* CameraAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD772A292A0DD7005F1AD0 /* CameraAnnotationView.swift */; };
+		FEDD772D292A21C8005F1AD0 /* IntersectionCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD772C292A21C8005F1AD0 /* IntersectionCamera.swift */; };
+		FEDD7730292A25AA005F1AD0 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD772F292A25AA005F1AD0 /* JSONHelper.swift */; };
+		FEDD7735292ACDFC005F1AD0 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD7734292ACDFC005F1AD0 /* APIEndPoint.swift */; };
+		FEDD7737292ACEDD005F1AD0 /* YYCIntersectionCameraAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDD7736292ACEDD005F1AD0 /* YYCIntersectionCameraAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE2912432920CA1D00453C91 /* ShareMyLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareMyLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE2912462920CA1D00453C91 /* ShareMyLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMyLocationApp.swift; sourceTree = "<group>"; };
-		FE2912482920CA1D00453C91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FE29124A2920CA1E00453C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE29124D2920CA1E00453C91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FE2912542920CD5500453C91 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FEDD77102929F5CF005F1AD0 /* YYCTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYCTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDD77132929F5CF005F1AD0 /* YYCTrafficApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCTrafficApp.swift; sourceTree = "<group>"; };
+		FEDD77152929F5CF005F1AD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEDD77172929F5D0005F1AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDD771A2929F5D0005F1AD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FEDD77252929FA9F005F1AD0 /* Intersections.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Intersections.json; sourceTree = "<group>"; };
+		FEDD7727292A0519005F1AD0 /* CameraPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPoints.swift; sourceTree = "<group>"; };
+		FEDD772A292A0DD7005F1AD0 /* CameraAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAnnotationView.swift; sourceTree = "<group>"; };
+		FEDD772C292A21C8005F1AD0 /* IntersectionCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionCamera.swift; sourceTree = "<group>"; };
+		FEDD772F292A25AA005F1AD0 /* JSONHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		FEDD7734292ACDFC005F1AD0 /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
+		FEDD7736292ACEDD005F1AD0 /* YYCIntersectionCameraAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCIntersectionCameraAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE2912402920CA1D00453C91 /* Frameworks */ = {
+		FEDD770D2929F5CF005F1AD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,128 +45,179 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE29123A2920CA1D00453C91 = {
+		FEDD77072929F5CF005F1AD0 = {
 			isa = PBXGroup;
 			children = (
-				FE2912452920CA1D00453C91 /* ShareMyLocation */,
-				FE2912442920CA1D00453C91 /* Products */,
+				FEDD77122929F5CF005F1AD0 /* YYCTraffic */,
+				FEDD77112929F5CF005F1AD0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FE2912442920CA1D00453C91 /* Products */ = {
+		FEDD77112929F5CF005F1AD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE2912432920CA1D00453C91 /* ShareMyLocation.app */,
+				FEDD77102929F5CF005F1AD0 /* YYCTraffic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE2912452920CA1D00453C91 /* ShareMyLocation */ = {
+		FEDD77122929F5CF005F1AD0 /* YYCTraffic */ = {
 			isa = PBXGroup;
 			children = (
-				FE2912462920CA1D00453C91 /* ShareMyLocationApp.swift */,
-				FE2912482920CA1D00453C91 /* ContentView.swift */,
-				FE29124A2920CA1E00453C91 /* Assets.xcassets */,
-				FE29124C2920CA1E00453C91 /* Preview Content */,
-				FE2912542920CD5500453C91 /* LocationManager.swift */,
+				FEDD77212929F800005F1AD0 /* Data */,
+				FEDD7729292A0D74005F1AD0 /* Views */,
+				FEDD77262929FE14005F1AD0 /* Models */,
+				FEDD7733292ACD9E005F1AD0 /* Services */,
+				FEDD772E292A2563005F1AD0 /* Helpers */,
+				FEDD77172929F5D0005F1AD0 /* Assets.xcassets */,
+				FEDD77192929F5D0005F1AD0 /* Preview Content */,
 			);
-			path = ShareMyLocation;
+			path = YYCTraffic;
 			sourceTree = "<group>";
 		};
-		FE29124C2920CA1E00453C91 /* Preview Content */ = {
+		FEDD77192929F5D0005F1AD0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FE29124D2920CA1E00453C91 /* Preview Assets.xcassets */,
+				FEDD771A2929F5D0005F1AD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEDD77212929F800005F1AD0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD77252929FA9F005F1AD0 /* Intersections.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FEDD77262929FE14005F1AD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD7727292A0519005F1AD0 /* CameraPoints.swift */,
+				FEDD772C292A21C8005F1AD0 /* IntersectionCamera.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEDD7729292A0D74005F1AD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD77132929F5CF005F1AD0 /* YYCTrafficApp.swift */,
+				FEDD77152929F5CF005F1AD0 /* ContentView.swift */,
+				FEDD772A292A0DD7005F1AD0 /* CameraAnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEDD772E292A2563005F1AD0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD772F292A25AA005F1AD0 /* JSONHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FEDD7733292ACD9E005F1AD0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FEDD7734292ACDFC005F1AD0 /* APIEndPoint.swift */,
+				FEDD7736292ACEDD005F1AD0 /* YYCIntersectionCameraAPIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE2912422920CA1D00453C91 /* ShareMyLocation */ = {
+		FEDD770F2929F5CF005F1AD0 /* YYCTraffic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE2912512920CA1E00453C91 /* Build configuration list for PBXNativeTarget "ShareMyLocation" */;
+			buildConfigurationList = FEDD771E2929F5D0005F1AD0 /* Build configuration list for PBXNativeTarget "YYCTraffic" */;
 			buildPhases = (
-				FE29123F2920CA1D00453C91 /* Sources */,
-				FE2912402920CA1D00453C91 /* Frameworks */,
-				FE2912412920CA1D00453C91 /* Resources */,
+				FEDD770C2929F5CF005F1AD0 /* Sources */,
+				FEDD770D2929F5CF005F1AD0 /* Frameworks */,
+				FEDD770E2929F5CF005F1AD0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ShareMyLocation;
-			productName = ShareMyLocation;
-			productReference = FE2912432920CA1D00453C91 /* ShareMyLocation.app */;
+			name = YYCTraffic;
+			productName = YYCTraffic;
+			productReference = FEDD77102929F5CF005F1AD0 /* YYCTraffic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE29123B2920CA1D00453C91 /* Project object */ = {
+		FEDD77082929F5CF005F1AD0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					FE2912422920CA1D00453C91 = {
-						CreatedOnToolsVersion = 13.4.1;
+					FEDD770F2929F5CF005F1AD0 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = FE29123E2920CA1D00453C91 /* Build configuration list for PBXProject "ShareMyLocation" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = FEDD770B2929F5CF005F1AD0 /* Build configuration list for PBXProject "YYCTraffic" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FE29123A2920CA1D00453C91;
-			productRefGroup = FE2912442920CA1D00453C91 /* Products */;
+			mainGroup = FEDD77072929F5CF005F1AD0;
+			productRefGroup = FEDD77112929F5CF005F1AD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE2912422920CA1D00453C91 /* ShareMyLocation */,
+				FEDD770F2929F5CF005F1AD0 /* YYCTraffic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE2912412920CA1D00453C91 /* Resources */ = {
+		FEDD770E2929F5CF005F1AD0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE29124E2920CA1E00453C91 /* Preview Assets.xcassets in Resources */,
-				FE29124B2920CA1E00453C91 /* Assets.xcassets in Resources */,
+				FEDD771B2929F5D0005F1AD0 /* Preview Assets.xcassets in Resources */,
+				FEDD77182929F5D0005F1AD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE29123F2920CA1D00453C91 /* Sources */ = {
+		FEDD770C2929F5CF005F1AD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE2912492920CA1D00453C91 /* ContentView.swift in Sources */,
-				FE2912472920CA1D00453C91 /* ShareMyLocationApp.swift in Sources */,
-				FE2912552920CD5500453C91 /* LocationManager.swift in Sources */,
+				FEDD772B292A0DD7005F1AD0 /* CameraAnnotationView.swift in Sources */,
+				FEDD77162929F5CF005F1AD0 /* ContentView.swift in Sources */,
+				FEDD77142929F5CF005F1AD0 /* YYCTrafficApp.swift in Sources */,
+				FEDD7730292A25AA005F1AD0 /* JSONHelper.swift in Sources */,
+				FEDD7728292A0519005F1AD0 /* CameraPoints.swift in Sources */,
+				FEDD772D292A21C8005F1AD0 /* IntersectionCamera.swift in Sources */,
+				FEDD7737292ACEDD005F1AD0 /* YYCIntersectionCameraAPIService.swift in Sources */,
+				FEDD7735292ACDFC005F1AD0 /* APIEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FE29124F2920CA1E00453C91 /* Debug */ = {
+		FEDD771C2929F5D0005F1AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -199,11 +261,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to share your location when in use?";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -211,13 +271,13 @@
 			};
 			name = Debug;
 		};
-		FE2912502920CA1E00453C91 /* Release */ = {
+		FEDD771D2929F5D0005F1AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -255,11 +315,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to share your location when in use?";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -267,14 +325,14 @@
 			};
 			name = Release;
 		};
-		FE2912522920CA1E00453C91 /* Debug */ = {
+		FEDD771F2929F5D0005F1AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ShareMyLocation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"YYCTraffic/Preview Content\"";
 				DEVELOPMENT_TEAM = SQB3YBWQ5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.saralapps.ShareMyLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.saralapps.YYCTraffic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +354,14 @@
 			};
 			name = Debug;
 		};
-		FE2912532920CA1E00453C91 /* Release */ = {
+		FEDD77202929F5D0005F1AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ShareMyLocation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"YYCTraffic/Preview Content\"";
 				DEVELOPMENT_TEAM = SQB3YBWQ5M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +375,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.saralapps.ShareMyLocation;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.saralapps.YYCTraffic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +386,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE29123E2920CA1D00453C91 /* Build configuration list for PBXProject "ShareMyLocation" */ = {
+		FEDD770B2929F5CF005F1AD0 /* Build configuration list for PBXProject "YYCTraffic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE29124F2920CA1E00453C91 /* Debug */,
-				FE2912502920CA1E00453C91 /* Release */,
+				FEDD771C2929F5D0005F1AD0 /* Debug */,
+				FEDD771D2929F5D0005F1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE2912512920CA1E00453C91 /* Build configuration list for PBXNativeTarget "ShareMyLocation" */ = {
+		FEDD771E2929F5D0005F1AD0 /* Build configuration list for PBXNativeTarget "YYCTraffic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE2912522920CA1E00453C91 /* Debug */,
-				FE2912532920CA1E00453C91 /* Release */,
+				FEDD771F2929F5D0005F1AD0 /* Debug */,
+				FEDD77202929F5D0005F1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE29123B2920CA1D00453C91 /* Project object */;
+	rootObject = FEDD77082929F5CF005F1AD0 /* Project object */;
 }
